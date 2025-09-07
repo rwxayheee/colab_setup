@@ -1,11 +1,12 @@
 channels:
   - conda-forge
 dependencies:
+  - python=3.12
+  - pip
   - numpy
   - scipy
   - rdkit
   - gemmi
-  - meeko==0.6.1
   - vina
   - autogrid
   - cctbx-base
